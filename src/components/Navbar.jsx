@@ -20,7 +20,7 @@ const Navbar = ({ activeTab, setActiveTab, onDownload }) => {
   };
 
   return (
-    <nav className="bg-[#212121] border-b-4 border-black sticky top-0 z-50 font-mono">
+    <nav className="bg-[#212121] border-b-4 border-black font-mono">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-20 items-center">
           

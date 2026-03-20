@@ -11,19 +11,12 @@ function App() {
   const [activeTab, setActiveTab] = useState('projects');
   const handleTabChange = (tab) => {
     if (tab === 'hero') {
-      // If clicking START or VNN, go to the very top
       window.scrollTo({ top: 0, behavior: 'smooth' });
-      // Optional: Reset to projects so when they go back down, it's fresh
-      // setActiveTab('projects'); 
-    } else {
-      // Set the clicked tab (projects, certificates, etc.)
-      setActiveTab(tab);
+    } else {   
+      setActiveTab(tab);     
       
-      // Scroll to the categories section
       const element = document.getElementById('categories');
       if (element) {
-        // We use a slight timeout to ensure the DOM has rendered the new tab
-        // before calculating the scroll position
         setTimeout(() => {
           element.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 10);
@@ -101,9 +94,9 @@ function App() {
     
     <Hero />
 
-    <section className="max-w-6xl mx-auto mt-12 px-6">
+    <section id="categories" className="max-w-6xl mx-auto mt-8 px-6">
       {/* Tab Buttons */}
-      <div className="flex flex-wrap gap-4 mb-8">
+      <div   className="flex flex-wrap gap-4 mb-8">
         {['projects', 'certificates', 'resume', 'skills'].map((tab) => (
           <button
             key={tab}
@@ -118,7 +111,6 @@ function App() {
 
       {/* Category Container */}
       <div 
-        id="categories" 
         className="scroll-mt-24 border-8 border-black bg-[#1a1a1a] p-1 md:p-6 relative shadow-[8px_8px_0px_0px_rgba(0,0,0,0.5)]"
       >
         {/* Dynamic Category Badge */}
@@ -171,7 +163,7 @@ function App() {
           )}
 
           {/* Fallback state if nothing is selected (unlikely with your default) */}
-          {!activeTab && (
+          {!activeTab || !handleTabChange && (
             <div className="flex flex-col items-center justify-center py-20 opacity-20">
               <div className="text-6xl mb-4">📂</div>
               <p className="uppercase font-bold tracking-widest">No Category Selected</p>
@@ -179,8 +171,9 @@ function App() {
           )}
         </div>
       </div>
-      <Footer />
+      
     </section>
+    <Footer />
   </div>
     
  );
