@@ -90,7 +90,7 @@ function Hero() {
           <div className={`bg-gray-200 p-2 ${pixelBorder} animate-pixel-float`}>
             <div className="bg-black aspect-square flex items-center justify-center overflow-hidden">
               <img 
-                src="src/assets/img/profile-pic.png"
+                src="/assets/img/profile-pic.png"
                 alt="Hero Portrait" 
                 className="w-full h-full object-cover rendering-pixelated"
               />

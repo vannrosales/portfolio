@@ -37,11 +37,11 @@ function App() {
     fullDescription: "A comprehensive management tool designed for Eastern Visayas State University to digitize and monitor extension services. It features automated tracking of community programs, real-time reporting for university faculty, and advanced data analytics to identify and visualize the specific individuals and stakeholders involved in every extension service conducted.",
     tags: ["PHP (Vanilla)", "MySQL", "WebSockets","ApexCharts.js"], 
     images: [
-      "src/assets/img/iesms/iesms-1.jpg",
-      "src/assets/img/iesms/iesms-2.png",
-      "src/assets/img/iesms/iesms-3.png",
-      "src/assets/img/iesms/iesms-4.png",
-      "src/assets/img/iesms/iesms-5.png",
+      "/assets/img/iesms/iesms-1.jpg",
+      "/assets/img/iesms/iesms-2.png",
+      "/assets/img/iesms/iesms-3.png",
+      "/assets/img/iesms/iesms-4.png",
+      "/assets/img/iesms/iesms-5.png",
     ],
     // link: "https://github.com"
   },
@@ -50,7 +50,7 @@ function App() {
     fullDescription: "A web-based system designed to streamline the document processing and scheduling tasks of the Dean’s Office at Eastern Visayas State University. It features a user-friendly interface for managing appointments, tracking document statuses, and facilitating communication between students and faculty.",
     tags: ["CodeIgniter 4", "MySQL", "Tailwind CSS"],
     images: [
-      "src/assets/img/deans-office-system/deans-office-1.jpg",
+      "/assets/img/deans-office-system/deans-office-1.jpg",
       // "src/assets/img/deans-office/deans-office-2.png",
       // "src/assets/img/deans-office/deans-office-3.png",
     ],
@@ -61,7 +61,7 @@ function App() {
     fullDescription: "A personalized, interactive web application created as a celebratory digital experience. It integrates Firebase for real-time guest interactions, featuring a dynamic gallery and a message board for high-speed engagement.",
     tags: ['Vue.JS', 'Firebase', 'Netlify Deployment'],
     images: [
-      "src/assets/img/vann-birthday-app/vann-birthday-1.png",
+      "/assets/img/vann-birthday-app/vann-birthday-1.png",
       // "src/assets/img/vann-birthday-app/vann-birthday-2.png",
       // "src/assets/img/vann-birthday-app/vann-birthday-3.png",
     ],
@@ -72,7 +72,7 @@ function App() {
     fullDescription: "A sleek, mobile-responsive booking and menu showcase for a mobile bar service. Utilizing Vue.js and Supabase, it features real-time availability updates and an inquiry system for event catering.",
     tags: ['Vue.JS', 'Supabase PostgreSQL', 'Netlify Deployment'],
     images: [
-      "src/assets/img/sip-mobile-bar/sip-mobile-bar-1.png",
+      "/assets/img/sip-mobile-bar/sip-mobile-bar-1.png",
       // "src/assets/img/sip-mobile-bar/sip-mobile-bar-2.png",
       // "src/assets/img/sip-mobile-bar/sip-mobile-bar-3.png",
     ],
@@ -83,7 +83,7 @@ function App() {
     fullDescription: "An interactive digital publication platform for Anawahay National Highschool. Built with the Luma Framework, it allows students and teachers to publish news, literary works, and announcements in a modern, streamlined blog-style format.",
     tags: ['Luma Framework', 'MySQL Database','Hostinger Deployment'],
     images: [
-      "src/assets/img/story-stream/story-stream.jpg",
+      "/assets/img/story-stream/story-stream.jpg",
       // "src/assets/img/sip-mobile-bar/sip-mobile-bar-2.png",
       // "src/assets/img/sip-mobile-bar/sip-mobile-bar-3.png",
     ],
