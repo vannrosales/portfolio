@@ -82,6 +82,20 @@ function App() {
     ],
     link : "https://stroystream.online/"
   },
+  {
+    title: "Amo Na: Grocery Tracker App with Budgeting",
+    fullDescription: `Amo Na is a modern, Waraynon-inspired grocery tracker designed for the organized Filipino household. Beyond a simple checklist, it blends a premium Green & White aesthetic with local soul, helping you manage your pantry with speed and style. 
+    From planning your Guti nga Pamaliton to checking off your list, it’s 100% offline, privacy-focused, and built to make every market trip feel like a mission accomplished.`,
+    tags: ['React Native', 'AsyncStorage', 'Expo Deployment'],
+    images: [
+      "/assets/img/amo-na-app/front.png",
+      "/assets/img/amo-na-app/amo-na-1.jpg",
+      "/assets/img/amo-na-app/amo-na-2.jpg",
+      "/assets/img/amo-na-app/amo-na-3.jpg",
+      "/assets/img/amo-na-app/amo-na-4.jpg",
+    ],
+    link: "https://github.com/vannrosales/amo-na-app"
+  }
 
 ];
 
