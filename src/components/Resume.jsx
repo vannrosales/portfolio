@@ -13,7 +13,7 @@ const Resume = () => {
           </p>
         </div>
         <a 
-          href="/resume.pdf" 
+          href="/Guino - Resume.pdf" 
           download="GiovanniHanzGuino-Resume.pdf"
           className="inline-block bg-blue-600 text-white px-6 py-2 text-xs font-bold uppercase border-4 border-black shadow-[4px_4px_0px_0px_black] hover:bg-blue-500 hover:translate-y-1 active:shadow-none active:translate-x-1 active:translate-y-1 transition-all no-underline"
         >
@@ -46,6 +46,9 @@ const Resume = () => {
               <h4 className="font-bold text-lg leading-none uppercase">Senior High School</h4>
               <p className="text-[10px] font-bold text-blue-600 mb-1">ACLC College of Tacloban | 2020 — 2021</p>
               <p className="text-xs text-gray-600">TVL Programming Strand (Java & Software Fundamentals)</p>
+              <div className="bg-yellow-50 border-2 border-black p-2 inline-block">
+                <p className="text-[10px] font-bold uppercase text-yellow-700">🏆 Achievement: with Honors</p>
+              </div>
             </div>
           </div>
         </section>
